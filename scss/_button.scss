@@ -1,0 +1,15 @@
+.main__button {
+  display: flex;
+  color: white;
+  background-color: $color;
+  border: none;
+  padding: 15px 0;
+  width: 100%;
+  border-radius: 7px;
+  align-items: center;
+  justify-content: center;
+}
+.image__add {
+  width: 14px;
+  height: 14px;
+}
