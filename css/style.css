@@ -1,5 +1,36 @@
-.siema {
-  color: red;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: hsl(30deg, 38%, 92%);
+}
+
+.main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.main .content {
+  grid-column: 2/span 3;
+  border: 1px solid red;
+  width: 700px;
+}
+.main .content .grid__content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.main .content .grid__content .content__img img {
+  grid-column: 1;
+  max-width: 100%;
+  object-fit: cover;
+}
+.main .content .grid__content .content__text {
+  grid-column: 2;
 }
 
 /*# sourceMappingURL=style.css.map */
