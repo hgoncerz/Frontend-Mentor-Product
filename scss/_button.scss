@@ -8,6 +8,11 @@
   border-radius: 7px;
   align-items: center;
   justify-content: center;
+
+  &:hover {
+    background: rgb(4, 46, 4);
+    cursor: pointer;
+  }
 }
 .image__add {
   width: 14px;
